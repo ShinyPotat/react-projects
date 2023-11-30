@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Flow+Circular&display=swap');
+
+body {
+  margin: 0;
+  background-color: #2a2a2a;
+  min-height: 100vh;
+  color: white;
+  font-family: system-ui;
+}
