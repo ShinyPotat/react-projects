@@ -4,4 +4,4 @@ En este proyecto he practicado cómo funcionan los estados en React utilizando `
 
 ![image](https://github.com/ShinyPotat/react-projects/assets/59798595/51425160-a9d3-4cdc-bf37-e4f83b0cb7c2)
 
-![demo gif](https://github.com/ShinyPotat/react-projects/assets/59798595/0531cda9-7b4e-410e-8066-3bafd57b2757)
+![demo video](https://github.com/ShinyPotat/react-projects/assets/59798595/ad8b7e92-21b7-4652-b3bb-9cc87c6d359e)
