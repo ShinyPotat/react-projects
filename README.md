@@ -3,6 +3,6 @@ Voy a estar aprendiendo React en estos días, todos los proyectos que vaya hacie
 
 # Proyectos en React
 
-| Número | Proyecto | Código |
-| --- | --- | --- |
-| `01` | Spotify Playlist | [Ver](projects/01-spotify-playlist) |
+| Número | Proyecto | Código | Web |
+| --- | --- | --- | --- |
+| `01` | Spotify Playlist | [Ver](projects/01-spotify-playlist) | [Visitar](https://shinypotat-react-01.netlify.app) | 
