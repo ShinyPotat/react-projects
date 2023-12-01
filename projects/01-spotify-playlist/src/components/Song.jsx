@@ -15,7 +15,7 @@ export function Song({
 }) {
   const [isLiked, setIsLiked] = useState(initialIsLiked);
 
-  const isExplicitText = isExplicit ? "E" : "";
+  const isExplicitClassName = isExplicit ? "is-explicit" : "not-explicit";
   const heartClassName = isLiked ? "heart-icon is-liked" : "heart-icon";
   const heartIcon = isLiked ? <FaHeart /> : <FaRegHeart />;
 
@@ -35,21 +35,21 @@ export function Song({
             {title}
           </a>
           <div className="sp-song-info-bottom">
-            <span className="is-explicit">{isExplicitText}</span>
+            <span className={isExplicitClassName}></span>
             <a className="sp-song-link" href="#">
               {artist}
             </a>
           </div>
         </div>
       </header>
-      <a className="sp-song-link" href="#">
+      <a className="sp-song-link sp-song-album" href="#">
         {album}
       </a>
-      <span className="sp-song-text">{date}</span>
+      <span className="sp-song-text sp-song-date">{date}</span>
       <div className={heartClassName} onClick={handleLikeButton}>
         {heartIcon}
       </div>
-      <span className="sp-song-text">{duration}</span>
+      <span className="sp-song-text sp-song-duration">{duration}</span>
       <BsThreeDots className="three-dots" />
     </article>
   );
