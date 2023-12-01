@@ -2,6 +2,6 @@
 
 En este proyecto he practicado cómo funcionan los estados en React utilizando `useState()`. Además, he probado la librería `react-icons` para el uso de iconos.
 
-![image](https://github.com/ShinyPotat/react-projects/assets/59798595/51425160-a9d3-4cdc-bf37-e4f83b0cb7c2)
+![image](https://github.com/ShinyPotat/react-projects/assets/59798595/86449681-c232-4900-839e-4e50ce00ddeb)
 
-![demo video](https://github.com/ShinyPotat/react-projects/assets/59798595/b802752a-0e7a-4fb1-9aa2-532d442f83b3)
+![demo gif](https://github.com/ShinyPotat/react-projects/assets/59798595/138dc0ff-8aa4-47b9-89ba-1e1185be2572)
