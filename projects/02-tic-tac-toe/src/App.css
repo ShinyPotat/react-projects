@@ -1,0 +1,66 @@
+.game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.game>h1 {
+  text-align: center;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.square {
+  border: 3px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 85px;
+  width: 85px;
+  font-size: 4rem;
+  cursor: pointer;
+}
+
+.square.is-selected {
+  background-color: rgba(57, 94, 143, 0.6);
+}
+
+.turns {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.turns>.square {
+  cursor: auto;
+}
+
+.winner {
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.restart-btn {
+  cursor: pointer;
+  border: 2px solid white;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  padding: 5px 10px;
+  background-color: transparent;
+  color: white;
+  transition: 0.2s ease background-color;
+  margin-bottom: 15px;
+}
+
+.restart-btn:hover {
+  background-color: rgba(57, 94, 143, 0.6);
+}
