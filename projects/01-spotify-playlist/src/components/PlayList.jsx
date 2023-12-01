@@ -20,7 +20,7 @@ export function PlayList({ songs }) {
           cover,
           title,
           isExplicit,
-          artist,
+          artists,
           album,
           date,
           isLiked,
@@ -32,7 +32,7 @@ export function PlayList({ songs }) {
             cover={cover}
             title={title}
             isExplicit={isExplicit}
-            artist={artist}
+            artists={artists}
             album={album}
             date={date}
             initialIsLiked={isLiked}

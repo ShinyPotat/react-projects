@@ -1,13 +1,14 @@
 import { useState } from "react";
 import { FaRegHeart, FaHeart } from "react-icons/fa";
 import { BsThreeDots } from "react-icons/bs";
+import React from "react";
 
 export function Song({
   id,
   cover,
   title,
   isExplicit,
-  artist,
+  artists,
   album,
   initialIsLiked,
   date,
@@ -36,9 +37,16 @@ export function Song({
           </a>
           <div className="sp-song-info-bottom">
             <span className={isExplicitClassName}></span>
-            <a className="sp-song-link" href="#">
-              {artist}
-            </a>
+            <div className="sp-song-text">
+              {artists.map((artist, index) => (
+                <React.Fragment key={artist}>
+                  <a className="sp-song-link" href="#">
+                    {artist}
+                  </a>
+                  {index < artists.length - 1 && ", "}
+                </React.Fragment>
+              ))}
+            </div>
           </div>
         </div>
       </header>
