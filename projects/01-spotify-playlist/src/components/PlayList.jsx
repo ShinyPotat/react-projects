@@ -1,15 +1,15 @@
-import { Song } from "./Song";
-import { LuClock3 } from "react-icons/lu";
+import { Song } from './Song';
+import { LuClock3 } from 'react-icons/lu';
 
-export function PlayList({ songs }) {
+export function PlayList ({ songs }) {
   return (
-    <div className="sp-playlist">
-      <header className="sp-playlist-header sp-song-text">
+    <div className='sp-playlist'>
+      <header className='sp-playlist-header sp-song-text'>
         <span>#</span>
         <span>Title</span>
-        <span className="sp-playlist-header-album">Album</span>
-        <span className="sp-playlist-header-date">Date added</span>
-        <span></span>
+        <span className='sp-playlist-header-album'>Album</span>
+        <span className='sp-playlist-header-date'>Date added</span>
+        <span />
         <span>
           <LuClock3 />
         </span>
@@ -24,7 +24,7 @@ export function PlayList({ songs }) {
           album,
           date,
           isLiked,
-          duration,
+          duration
         }) => (
           <Song
             key={id}
@@ -41,5 +41,5 @@ export function PlayList({ songs }) {
         )
       )}
     </div>
-  );
+  )
 }
