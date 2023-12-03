@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+}
+
+.follow-btn {
+  border: 2px solid white;
+  cursor: pointer;
+  color: white;
+  font-family: monospace;
+  font-size: 1rem;
+  padding: 5px 10px;
+  background-color: transparent;
+  border-radius: 5px;
+  transition: 0.2s ease background-color;
+}
+
+.follow-btn:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.pointer {
+  position: absolute;
+  border-radius: 50%;
+  pointer-events: none;
+  border: 1px solid white;
+  background-color: rgba(255, 255, 255, 0.2);
+  top: -25px;
+  left: -25px;
+  height: 50px;
+  width: 50px;
+}
