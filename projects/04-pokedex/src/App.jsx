@@ -25,7 +25,7 @@ function App() {
             required
             onChange={handleChange}
             type="text"
-            placeholder="Pikachu, Charizar, Vaporeon..."
+            placeholder="Pikachu, Charizard, Vaporeon..."
           />
           <button>Search</button>
           {error && <p style={{ color: "red" }}>{error}</p>}
