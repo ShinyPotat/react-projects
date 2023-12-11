@@ -1,8 +1,5 @@
-# React + Vite
+# 04-pokedex
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+He aprendido a usar el `useRef` y `useCallback`. Es la primera vez que uso una API con React.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![demo gif](https://github.com/ShinyPotat/react-projects/assets/59798595/dea8c3cf-1e42-4630-a571-44d3310c76f0)
